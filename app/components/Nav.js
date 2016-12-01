@@ -3,8 +3,10 @@ import { Link } from 'react-router';
 
 const Nav = () =>
     <div>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+        <p>
+            <Link to="/">Home </Link>
+            <Link to="/about">About </Link>
+        </p>
     </div>;
 
 Nav.propTypes = {
