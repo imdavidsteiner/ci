@@ -1,0 +1,193 @@
+/*---------------------------------- Default Styles ----------------------------------*/
+
+body{
+	background:@c1-xdk;
+	font-family: Cambria;
+	max-width: 750px;	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1{
+	font-size: 180%;
+	font-weight:bold;
+	color: @c3-dk;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+h2{
+	font-size: 140%;
+	font-weight:bold;
+	color: @c3-dk;
+	text-align: center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+h3{
+	color: @c1-dk;
+	font-size: 120%;
+	font-weight:bold;
+}
+strong{
+	font-weight: bold;
+}
+
+img{
+	vertical-align: middle;	
+	max-width: 100%;
+	
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+/*---------------------------------- Universal Styles ----------------------------------*/
+.wrapper{
+	margin-left: 10px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.white-rounded {
+	background: white;
+	padding: 100px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+.floatLeft{
+	float: left;
+	clear: left;
+}
+
+.floatRight{
+	float: right;
+	clear: right;
+}
+
+.floatNone{
+	float: none;
+}
+
+.indent{
+	margin-left: 35px;
+}
+
+.clearLeft{
+	clear: left;
+}
+
+.clearFix{
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+.noClear{
+	clear: none;
+}
+
+a:link {text-decoration:none;color:@c3;} /* unvisited link */
+a:visited {text-decoration:none;color:@c3;} /* visited link */
+a:hover {text-decoration:none;color:@c3;} /* mouse over link */
+a:active {text-decoration:none;color:#ffffff;} /* selected link */
+
+/*---------------------------------- Header Block ----------------------------------*/
+
+.header{
+}
+
+.logo {
+	color: @c3;
+	text-decoration: none;
+	font-size:300%;
+	font-weight: bold;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.site-nav {
+	float:right;
+	color: @c3;
+	text-decoration: none;
+	font-size: 150%;
+	font-weight: bold;
+	font-style: italic;
+	vertical-align: middle;
+	margin-top: 15px;
+}
+
+/*---------------------------------- Center/Main Block ----------------------------------*/
+
+.paper {
+	background-image:url('/resources/image/parch-d2.jpg');
+	padding: 10px;
+	margin-bottom:10px;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	color: @c3-xdk;
+	font-family: Arial;
+	fint-size:120%;
+	
+}
+.jobtitle{
+	font-size: 60%;
+	font-weight: bold;
+	font-style: italic;
+	color: @c3-xdk;
+}
+.italic{
+	font-style: italic;
+	font-weight: bold;
+	color: @c3-xdk;
+}
+
+.company{ color: @c1-dk; }
+.person-img {
+	float:left; 
+	margin-right:10px;
+	margin-bottom:10px;
+	width:33%
+}
+
+/*---------------------------------- Footer Block ----------------------------------*/
+.footer{
+	xfloat: left;
+	width: 100%;
+	border-top: 0px solid #032C58;
+	background: @c1-xdk;
+	padding: 20px 0;
+	font-size: .86em;
+	line-height: 1.7em;
+}
+
+.copyright {
+	text-align: center;
+	color:@c3;
+}
+
+/* ------------ Tablets (portrait) ----------- */
+@media only screen and (max-width : 640px) {
+/* Styles */
+.logo {
+	font-size:32px;
+	float: none;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	text-align:center;
+}
+
+.site-nav {
+	float:none;
+	font-size: 16px;
+	margin-top: 15px;
+	display:none;
+}
+.banner-img { img:url("/resources/image/IMGP9049-wide_mini.JPG") }
+.person-img { float:none; width:50%; }
+
+}
+
+}
