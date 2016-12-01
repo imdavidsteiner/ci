@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
 
 const Nav = () =>
-    <div>
+    <div className="nav">
         <p>
             <Link to="/">Home </Link>
             <Link to="/about">About </Link>

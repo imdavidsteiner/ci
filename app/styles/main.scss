@@ -1,9 +1,25 @@
 .filterable-table {
 	padding: 20px;
-	background-color: white;
+	background-color: #991111;
+}
+
+header {
+	margin-top: 10px;
+
+	a {
+		padding: 5px 10px 5px 0;
+	}
 }
 
 footer {
+	margin-top: 20px;
+
+	a {
+		padding: 5px 10px 5px 0;
+	}
+}
+
+nav {
 	margin-top: 20px;
 
 	a {
