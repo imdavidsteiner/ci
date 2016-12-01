@@ -2,7 +2,20 @@ import React, { PropTypes } from 'react';
 import ProductRow from './ProductRow';
 
 const products = [
-  { tags: ['Solo','Piano','Sheet Music'], name: 'Les Images' short: 'Piano Solo, difficulty: medium', history=''},
+    {
+        name: 'Les Images',
+        short: 'Piano Solo, difficulty: medium',
+        history: '',
+        price: 1.99,
+        tags: ['Solo', 'Piano', 'Sheet Music', 'Audio', 'Medium']
+    },
+    {
+        name: "Angels' Lullaby",
+        short: 'Piano Solo, medium difficulty',
+        history: '',
+        price: 1.49,
+        tags: ['Choir', 'Sheet Music', 'Audio', 'Medium', 'Christmas', 'SATB']
+    }
 ];
 
 const ProductTable = ({ filter }) => {

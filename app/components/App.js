@@ -1,13 +1,13 @@
 import React, { PropTypes } from 'react';
-import { Link } from 'react-router';
-
+import Nav from './Nav';
 const App = ({ children }) =>
     <div>
+        <img src="/resources/image/IMGP9049-banner_mini.jpg"/>
         <h1>Crescendo Imprints</h1>
+        <Nav/>
         { children }
         <footer>
-            <Link to="/">Filterable Table</Link>
-            <Link to="/about">About</Link>
+            <Nav/>
         </footer>
     </div>;
 

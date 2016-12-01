@@ -1,18 +1,14 @@
 import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
 
-const App = ({ children }) =>
+const Nav = () =>
     <div>
-        <h1>Crescendo Imprints</h1>
-        { children }
-        <footer>
-            <Link to="/">Filterable Table</Link>
-            <Link to="/about">About</Link>
-        </footer>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
     </div>;
 
-App.propTypes = {
+Nav.propTypes = {
     children: PropTypes.object
 };
 
-export default App;
+export default Nav;
